@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		245EA4FA1B81702200536D77 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 245EA4F91B81702200536D77 /* main.m */; };
+		245EA4FD1B81702200536D77 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 245EA4FC1B81702200536D77 /* AppDelegate.m */; };
+		245EA5001B81702200536D77 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 245EA4FF1B81702200536D77 /* ViewController.m */; };
+		245EA5031B81702200536D77 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 245EA5011B81702200536D77 /* Main.storyboard */; };
+		245EA5051B81702200536D77 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 245EA5041B81702200536D77 /* Images.xcassets */; };
+		245EA5081B81702200536D77 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 245EA5061B81702200536D77 /* LaunchScreen.xib */; };
+		245EA5141B81702200536D77 /* btnRemoveHightLightTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 245EA5131B81702200536D77 /* btnRemoveHightLightTests.m */; };
+		245EA5201B8170BB00536D77 /* UIButton+EX.m in Sources */ = {isa = PBXBuildFile; fileRef = 245EA51F1B8170BB00536D77 /* UIButton+EX.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		245EA50E1B81702200536D77 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 245EA4EC1B81702100536D77 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 245EA4F31B81702200536D77;
+			remoteInfo = btnRemoveHightLight;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		245EA4F41B81702200536D77 /* btnRemoveHightLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = btnRemoveHightLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		245EA4F81B81702200536D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245EA4F91B81702200536D77 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		245EA4FB1B81702200536D77 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		245EA4FC1B81702200536D77 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		245EA4FE1B81702200536D77 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		245EA4FF1B81702200536D77 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		245EA5021B81702200536D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		245EA5041B81702200536D77 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		245EA5071B81702200536D77 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		245EA50D1B81702200536D77 /* btnRemoveHightLightTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = btnRemoveHightLightTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		245EA5121B81702200536D77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		245EA5131B81702200536D77 /* btnRemoveHightLightTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = btnRemoveHightLightTests.m; sourceTree = "<group>"; };
+		245EA51E1B8170BB00536D77 /* UIButton+EX.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+EX.h"; sourceTree = "<group>"; };
+		245EA51F1B8170BB00536D77 /* UIButton+EX.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+EX.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		245EA4F11B81702200536D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245EA50A1B81702200536D77 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		245EA4EB1B81702100536D77 = {
+			isa = PBXGroup;
+			children = (
+				245EA4F61B81702200536D77 /* btnRemoveHightLight */,
+				245EA5101B81702200536D77 /* btnRemoveHightLightTests */,
+				245EA4F51B81702200536D77 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		245EA4F51B81702200536D77 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				245EA4F41B81702200536D77 /* btnRemoveHightLight.app */,
+				245EA50D1B81702200536D77 /* btnRemoveHightLightTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		245EA4F61B81702200536D77 /* btnRemoveHightLight */ = {
+			isa = PBXGroup;
+			children = (
+				245EA51D1B8170B000536D77 /* lib */,
+				245EA4FB1B81702200536D77 /* AppDelegate.h */,
+				245EA4FC1B81702200536D77 /* AppDelegate.m */,
+				245EA4FE1B81702200536D77 /* ViewController.h */,
+				245EA4FF1B81702200536D77 /* ViewController.m */,
+				245EA5011B81702200536D77 /* Main.storyboard */,
+				245EA5041B81702200536D77 /* Images.xcassets */,
+				245EA5061B81702200536D77 /* LaunchScreen.xib */,
+				245EA4F71B81702200536D77 /* Supporting Files */,
+			);
+			path = btnRemoveHightLight;
+			sourceTree = "<group>";
+		};
+		245EA4F71B81702200536D77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				245EA4F81B81702200536D77 /* Info.plist */,
+				245EA4F91B81702200536D77 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		245EA5101B81702200536D77 /* btnRemoveHightLightTests */ = {
+			isa = PBXGroup;
+			children = (
+				245EA5131B81702200536D77 /* btnRemoveHightLightTests.m */,
+				245EA5111B81702200536D77 /* Supporting Files */,
+			);
+			path = btnRemoveHightLightTests;
+			sourceTree = "<group>";
+		};
+		245EA5111B81702200536D77 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				245EA5121B81702200536D77 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		245EA51D1B8170B000536D77 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				245EA51E1B8170BB00536D77 /* UIButton+EX.h */,
+				245EA51F1B8170BB00536D77 /* UIButton+EX.m */,
+			);
+			name = lib;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		245EA4F31B81702200536D77 /* btnRemoveHightLight */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245EA5171B81702200536D77 /* Build configuration list for PBXNativeTarget "btnRemoveHightLight" */;
+			buildPhases = (
+				245EA4F01B81702200536D77 /* Sources */,
+				245EA4F11B81702200536D77 /* Frameworks */,
+				245EA4F21B81702200536D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = btnRemoveHightLight;
+			productName = btnRemoveHightLight;
+			productReference = 245EA4F41B81702200536D77 /* btnRemoveHightLight.app */;
+			productType = "com.apple.product-type.application";
+		};
+		245EA50C1B81702200536D77 /* btnRemoveHightLightTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 245EA51A1B81702200536D77 /* Build configuration list for PBXNativeTarget "btnRemoveHightLightTests" */;
+			buildPhases = (
+				245EA5091B81702200536D77 /* Sources */,
+				245EA50A1B81702200536D77 /* Frameworks */,
+				245EA50B1B81702200536D77 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				245EA50F1B81702200536D77 /* PBXTargetDependency */,
+			);
+			name = btnRemoveHightLightTests;
+			productName = btnRemoveHightLightTests;
+			productReference = 245EA50D1B81702200536D77 /* btnRemoveHightLightTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		245EA4EC1B81702100536D77 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = company;
+				TargetAttributes = {
+					245EA4F31B81702200536D77 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					245EA50C1B81702200536D77 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 245EA4F31B81702200536D77;
+					};
+				};
+			};
+			buildConfigurationList = 245EA4EF1B81702100536D77 /* Build configuration list for PBXProject "btnRemoveHightLight" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 245EA4EB1B81702100536D77;
+			productRefGroup = 245EA4F51B81702200536D77 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				245EA4F31B81702200536D77 /* btnRemoveHightLight */,
+				245EA50C1B81702200536D77 /* btnRemoveHightLightTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		245EA4F21B81702200536D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245EA5031B81702200536D77 /* Main.storyboard in Resources */,
+				245EA5081B81702200536D77 /* LaunchScreen.xib in Resources */,
+				245EA5051B81702200536D77 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245EA50B1B81702200536D77 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		245EA4F01B81702200536D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245EA5001B81702200536D77 /* ViewController.m in Sources */,
+				245EA4FD1B81702200536D77 /* AppDelegate.m in Sources */,
+				245EA5201B8170BB00536D77 /* UIButton+EX.m in Sources */,
+				245EA4FA1B81702200536D77 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		245EA5091B81702200536D77 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				245EA5141B81702200536D77 /* btnRemoveHightLightTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		245EA50F1B81702200536D77 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 245EA4F31B81702200536D77 /* btnRemoveHightLight */;
+			targetProxy = 245EA50E1B81702200536D77 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		245EA5011B81702200536D77 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				245EA5021B81702200536D77 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		245EA5061B81702200536D77 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				245EA5071B81702200536D77 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		245EA5151B81702200536D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		245EA5161B81702200536D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		245EA5181B81702200536D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = btnRemoveHightLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		245EA5191B81702200536D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = btnRemoveHightLight/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		245EA51B1B81702200536D77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = btnRemoveHightLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/btnRemoveHightLight.app/btnRemoveHightLight";
+			};
+			name = Debug;
+		};
+		245EA51C1B81702200536D77 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = btnRemoveHightLightTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/btnRemoveHightLight.app/btnRemoveHightLight";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		245EA4EF1B81702100536D77 /* Build configuration list for PBXProject "btnRemoveHightLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245EA5151B81702200536D77 /* Debug */,
+				245EA5161B81702200536D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		245EA5171B81702200536D77 /* Build configuration list for PBXNativeTarget "btnRemoveHightLight" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245EA5181B81702200536D77 /* Debug */,
+				245EA5191B81702200536D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		245EA51A1B81702200536D77 /* Build configuration list for PBXNativeTarget "btnRemoveHightLightTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				245EA51B1B81702200536D77 /* Debug */,
+				245EA51C1B81702200536D77 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 245EA4EC1B81702100536D77 /* Project object */;
+}
